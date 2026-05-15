@@ -11,7 +11,7 @@
     "db:types": "supabase gen types typescript --project-id $SUPABASE_PROJECT_ID > types/database.ts"
   },
   "dependencies": {
-    "@supabase/ssr": "^0.5.2",
+    "@supabase/ssr": "^0.10.3",
     "@supabase/supabase-js": "^2.46.1",
     "clsx": "^2.1.1",
     "nanoid": "^5.0.9",

@@ -8,7 +8,9 @@ const nextConfig = {
       { protocol: 'https', hostname: '*.supabase.co' },
     ],
   },
-  typedRoutes: true,
+  // typedRoutes intentionally disabled — too many dynamic params (/admin/customers/[id], /admin/episodes/[id], /p/[token])
+  // Re-enable once we have a stable route map with proper Route casting in all dynamic Links.
+  typedRoutes: false,
 };
 
 export default nextConfig;
